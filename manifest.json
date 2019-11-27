@@ -2,8 +2,8 @@
   "name":"TAP10",
   "short_name":"TAP10",
 
- "_comment": "android‚ÅƒXƒvƒ‰ƒbƒVƒ…‰æ–Ê•\¦F512~512‚ÌpngƒAƒCƒRƒ“",
- "_comment": "android‚ÅƒCƒ“ƒXƒg[ƒ‹ƒoƒi[•\¦F192~192‚ÌpngƒAƒCƒRƒ“",
+ "_comment": "androidã§ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥ç”»é¢è¡¨ç¤ºï¼š512Ã—512ã®pngã‚¢ã‚¤ã‚³ãƒ³",
+ "_comment": "androidã§ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒãƒŠãƒ¼è¡¨ç¤ºï¼š192Ã—192ã®pngã‚¢ã‚¤ã‚³ãƒ³",
   "icons": [{
       "src": "/icons/icon-192x192.png",
       "sizes":"192x192",
