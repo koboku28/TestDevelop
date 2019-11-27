@@ -1,13 +1,13 @@
-//ƒCƒ“ƒXƒg[ƒ‹‚ğ‘£‚·ƒoƒi[‚ğ•\¦
+//ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’ä¿ƒã™ãƒãƒŠãƒ¼ã‚’è¡¨ç¤º
 self.addEventListener('fetch', function(e) {
-  // ‚±‚±‚Í‹ó‚Å‚àOK
+  // ã“ã“ã¯ç©ºã§ã‚‚OK
 })
 
-// ƒ‰ƒCƒuƒ‰ƒŠ‚ÌƒCƒ“ƒ|[ƒg
+// ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
 
-// ƒtƒ@ƒCƒ‹‚ÌƒLƒƒƒbƒVƒ…
-// ƒŠƒrƒWƒ‡ƒ“‚ğw’è‚·‚é‚±‚Æ‚ÅAƒLƒƒƒbƒVƒ…‚Ìƒo[ƒWƒ‡ƒ“ŠÇ—‚ª‰Â”\B
+// ãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥
+// ãƒªãƒ“ã‚¸ãƒ§ãƒ³ã‚’æŒ‡å®šã™ã‚‹ã“ã¨ã§ã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ç®¡ç†ãŒå¯èƒ½ã€‚
 workbox.precaching.precacheAndRoute([
   {
     url: '/index.html',
@@ -18,7 +18,7 @@ workbox.precaching.precacheAndRoute([
     revision: '1'
   },
   { 
-@url: '/app.js',
+ã€€url: '/app.js',
     revision: '1'
   },
 ])
