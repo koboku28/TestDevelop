@@ -1,4 +1,4 @@
-// •Ï”’è‹`
+// å¤‰æ•°å®šç¾©
 let isPlaying = false
 let tapCount, time = 0
 const tapBtn    = document.getElementById('js-tapBtn')
@@ -6,7 +6,7 @@ const startBtn  = document.getElementById('js-startBtn')
 const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
-// ƒQ[ƒ€‚Ì‰Šú’lİ’è
+// ã‚²ãƒ¼ãƒ ã®åˆæœŸå€¤è¨­å®š
 const setGame = () => {
   tapCount = 0
   time = 10000
@@ -15,14 +15,14 @@ const setGame = () => {
 }
 setGame()
 
-// ƒ^ƒbƒv‚µ‚½‚ÉƒJƒEƒ“ƒg‚ğ‘‚â‚·
+// ã‚¿ãƒƒãƒ—ã—ãŸæ™‚ã«ã‚«ã‚¦ãƒ³ãƒˆã‚’å¢—ã‚„ã™
 tapBtn.addEventListener('click', () => {
   if (!isPlaying) return false
   tapCount++
   countText.innerText = tapCount
 })
 
-// STARTƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚ÄƒQ[ƒ€‚ğƒXƒ^[ƒg‚³‚¹‚é
+// STARTãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦ã‚²ãƒ¼ãƒ ã‚’ã‚¹ã‚¿ãƒ¼ãƒˆã•ã›ã‚‹
 startBtn.addEventListener('click', () => {
   setGame()
   isPlaying = true
@@ -37,7 +37,7 @@ startBtn.addEventListener('click', () => {
       clearInterval(timer)
       isPlaying = false
       startBtn.style.display = 'inline-block'
-      startBtn.innerText = '‚à‚¤ˆê‰ñ'
+      startBtn.innerText = 'ã‚‚ã†ä¸€å›'
     }
   }, 10)
 })
